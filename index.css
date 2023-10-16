@@ -1,0 +1,1517 @@
+/* Mobile Styles */
+@media (max-width: 767px) {
+    /* CSS rules for mobile devices */
+    .nav-mobile {
+        display: none;
+      }
+      .navv-mobile{
+        /* display: flex;
+        flex-direction: column; */
+        /* position: absolute; */
+        position: fixed;
+        background-color: #5B9739;
+        left: 0;
+        top: -14px;
+        height: 1550px;
+        width: 55%;
+        max-width: 600px;
+        transition: .7s ease transform;
+        gap: -225px;
+        list-style: none;
+        z-index: 3;
+      }
+
+      .hamburger-menu-close{
+        cursor: pointer;
+        /* position: absolute; */
+        position: fixed;
+        margin-top: -18px;
+        z-index: 4;
+    }
+    
+    .hamburger-menu-close .bar{
+        width: 18px;
+        height: 1px;
+        border: 1px solid black;
+        background-color: black;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+      .navv-mobile li{
+        margin-top: 5.4rem;
+      }
+      
+
+    .main-body{
+        margin: 35px;
+        padding: 5px;
+    }
+    .nav-desktop{
+      position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        height: 3rem;
+    }
+    .hamburger-menu{
+        cursor: pointer;
+    }
+    
+    .hamburger-menu .bar{
+        width: 18px;
+        height: 1px;
+        border: 1px solid black;
+        background-color: black;
+        margin: 5px;
+        cursor: pointer;
+    }
+    div .nav-items{
+        gap: 40px;
+        list-style: none;
+        display: none;
+    }
+    div .nav-items li:hover{
+        color: burlywood;
+    }
+    .img-two{
+        display: flex;
+        gap: 10px;
+    }
+    .img-two div img{
+        width: 1rem;
+    }
+
+    .img-logo{
+        margin-left: -80px;
+        width: 4rem;
+        height: 1.2rem;
+    }
+    .img-logo img{
+        width: 100%;
+    }
+
+
+    /* hero section */
+    .hero-section{
+      display: flex;
+      position: relative;
+  }
+  .greenbutter{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 13rem;
+    right: 2rem;
+  }
+  .litegreenbutter{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 23rem;
+  }
+  .bulbleaf{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 38rem;
+    left: 0;
+  }
+  .inHeroSection{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-side{
+    height: 682px;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .image-side img{
+    width: 15rem;
+    margin-left: 4.4rem;
+  }
+  .text-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    width: 100%;
+    gap: -2px;
+  }
+  .text-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-inner h2{
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .text-inner h5{
+    font-weight: 200;
+    font-size: 15px;
+    margin: auto;
+  }
+  .text-inner h1{
+    font-weight: 900;
+    font-size: 25px;
+    /* width: 30px; */
+    color: #5B9739;
+  }
+  .text-inner p{
+    font-weight: 100;
+    font-size: 10px;
+    width: 200px;
+  }
+  .btn-btn button{
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    Border: 0px, 0px, 3px, 0px;
+    Padding: 8px, 35px, 8px, 35px;
+    Gap: 10px;
+    color: aliceblue;
+  }
+
+
+   /* flexes beginning */
+
+   .headings{
+    font-size: 11px;
+    font-weight: 800;
+   }
+
+   .flexx-section{
+    position: absolute;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 48rem;
+    margin: auto;
+  }
+  .flexes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .flexes h5{
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .flexxRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  .flexxRight .flexr{
+    width: 100%;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexxRight .flexl{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -10px;
+  }
+  .flexxLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  }
+  .flexxLeft .flexrr{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexxLeft .flexll{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -10px;
+  }
+
+
+   /* beginning of background */
+
+   .background{
+    background-image: url("/images/bg.jpg");
+    background-size: cover; /* Adjust the size of the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    /* height: 59rem; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 65rem;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.5; /* Adjust the opacity as per your preference */
+    z-index: 1; /* Make sure the overlay is above the background image */
+  }
+  .background .innerbackground{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: -5px;
+    z-index: 2;
+  }
+  .background .innerbackground h6{
+    font-size: 20px;
+  }
+  .background .innerbackground p{
+    width: 80%;
+  }
+  .background .innerbackground img{
+    width: 30%;
+  }
+  .background .innerbackground button{
+    height: 42px;
+    width: 166px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    color: aliceblue;
+  }
+
+
+  .slides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -67rem;
+  }
+  .reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .reviews div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .slidess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #55B76B;
+    height: 83rem;
+    margin-top: 2rem;
+    position: relative;
+    bottom: -67rem;
+  }
+  .slidess h2{
+    position: absolute;
+    top: 0;
+  }
+
+  .reviewss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 22rem;
+    margin-top: -2rem;
+  }
+
+  .reviewss .sly img{
+    width: 15rem;
+  }
+  .reviewss .sly{
+    width: 90%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
+  .reviewss .sly button{
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    Border: 0px, 0px, 3px, 0px;
+    Padding: 8px, 35px, 8px, 35px;
+    Gap: 10px;
+    color: aliceblue;
+  }
+
+
+  /* form */
+
+  .form{
+    background-image: url("/images/bg.jpg");
+    background-size: cover; /* Adjust the size of the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 45rem;
+    width: 100%;
+    position: relative;
+    top: 65rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigreen{
+    width: 3rem;
+    position: absolute;
+    top: 18rem;
+    left: 5px;
+    z-index: 2;
+  }
+  .overlayy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5; /* Adjust the opacity as per your preference */
+    z-index: 1; /* Make sure the overlay is above the background image */
+  }
+  .inner-form{
+    background-color: aliceblue;
+    z-index: 1;
+    width: 98%;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;
+  }
+  .form-img{
+    border-radius: 25px;
+    height: 20rem;
+  }
+  .form-img img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  .form-form{
+    background-color: aliceblue;
+    z-index: 1;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-form form h1{
+    font-size: 17px;
+  }
+  .form-form form p{
+    font-size: 13px;
+    width: 70%;
+  }
+  .form-form form input{
+    width: 80%;
+    height: 2rem;
+    border-radius: 6px;
+  }
+  .form-form form button{
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    Border: 0px, 0px, 3px, 0px;
+    Padding: 8px, 35px, 8px, 35px;
+    Gap: 10px;
+    color: aliceblue;
+  }
+
+   /* footer */
+
+   .footer{
+    position: relative;
+    background-color: #333333;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 65rem;
+  }
+  .roundglobe{
+    width: 8rem;
+    position: absolute;
+    top: -3.4rem;
+    right: 1rem;
+    z-index: 1;
+  }
+  .footer .inner-div1{
+    flex: 3;
+  }
+  .inner-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 15px;
+    margin-left: 2rem;
+  }
+  .inner-div1 div h6{
+    color: aliceblue;
+  }
+  /* .inner-div1 div {
+    border: 1px solid red;
+    height: 10rem;
+  } */
+  .inner-div1 .firsttt img{
+    width: 6rem;
+  }
+  .div--items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+  }
+  .second{
+    display: flex;
+    gap: 1rem;
+  }
+  .second img{
+    width: 1rem;
+  }
+  .inner-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    width: 100%;
+    margin: 0;
+    margin-top: -2rem;
+    margin-left: 1rem;
+  }
+  .inner-div2 div{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .inner-div2 div img{
+    width: .8rem;
+    height: .8rem;
+  }
+  .inner-div2 div h5{
+    color: aliceblue;
+    font-size: 9px;
+  }
+  .footer .inner-div2{
+    flex: 1;
+  }
+  
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* CSS rules for tablet devices */
+    .nav-mobile {
+        display: none;
+      }
+
+      .navv-mobile{
+        /* display: flex;
+        flex-direction: column; */
+        /* position: absolute; */
+        position: fixed;
+        background-color: #5B9739;
+        left: 0;
+        top: -14px;
+        height: 100vh;
+        width: 45%;
+        max-width: 600px;
+        transition: .7s ease transform;
+        gap: -5px;
+        list-style: none;
+        z-index: 3;
+      }
+
+      .hamburger-menu-close{
+        cursor: pointer;
+        /* position: absolute; */
+        position: fixed;
+        margin-top: -18px;
+        z-index: 4;
+    }
+    
+    .hamburger-menu-close .bar{
+        width: 18px;
+        height: 1px;
+        border: 1px solid black;
+        background-color: black;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+      .navv-mobile li{
+        margin-top: 7.4rem;
+      }
+      
+
+    .main-body{
+        margin: 35px;
+        padding: 5px;
+    }
+    .nav-desktop{
+      position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+        height: 3rem;
+    }
+    /* .hamburger-menu{
+      position: fixed;
+    } */
+    .hamburger-menu .bar{
+        width: 18px;
+        height: 1px;
+        border: 1px solid black;
+        background-color: black;
+        margin: 5px;
+    }
+    div .nav-items{
+        gap: 40px;
+        list-style: none;
+        display: none;
+    }
+    div .nav-items li:hover{
+        color: burlywood;
+    }
+    .img-two{
+        display: flex;
+        gap: 10px;
+    }
+    .img-two div img{
+        width: 19px;
+    }
+    .img-logo{
+        margin-left: -160px;
+        width: 90px;
+        height: 20px;
+        /* position: fixed; */
+    }
+    .img-logo img{
+        width: 90px;
+    }
+
+
+    /* hero section */
+    .hero-section{
+      display: flex;
+      position: relative;
+  }
+  .greenbutter{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 13rem;
+    right: 2rem;
+  }
+  .litegreenbutter{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    top: 23rem;
+  }
+  .bulbleaf{
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    top: 38rem;
+    left: 0;
+  }
+  .inHeroSection{
+    margin: auto;
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-side{
+    height: 682px;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .image-side img{
+    width: 29rem;
+    margin-left: 11rem;
+  }
+  .text-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    width: 100%;
+    gap: -25px;
+  }
+  .text-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text-inner h2{
+    font-weight: 800;
+    font-size: 35px;
+  }
+  .text-inner h5{
+    font-weight: 200;
+    font-size: 20px;
+    margin: auto;
+  }
+  .text-inner h1{
+    font-weight: 900;
+    font-size: 40px;
+    /* width: 30px; */
+    color: #5B9739;
+  }
+  .text-inner p{
+    font-weight: 100;
+    font-size: 15px;
+    width: 300px;
+  }
+  .btn-btn button{
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    Border: 0px, 0px, 3px, 0px;
+    Padding: 8px, 35px, 8px, 35px;
+    Gap: 10px;
+    color: aliceblue;
+  }
+
+   /* flexes beginning */
+
+   .flexx-section{
+    margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .flexes h5{
+    font-weight: 900;
+    font-size: 20px;
+  }
+
+
+  /* beginning of background */
+
+  .background{
+    background-image: url("/images/bg.jpg");
+    background-size: cover; /* Adjust the size of the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 59rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.5; /* Adjust the opacity as per your preference */
+    z-index: 1; /* Make sure the overlay is above the background image */
+  }
+  .background .innerbackground{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    z-index: 2;
+  }
+  .background .innerbackground h6{
+    font-size: 20px;
+  }
+  .background .innerbackground button{
+    height: 42px;
+    width: 166px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    color: aliceblue;
+  }
+
+  /* .slides */
+
+  .slides{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .reviews div{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .slidess{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #55B76B;
+    height: 75rem;
+    margin-top: 2rem;
+    position: relative;
+  }
+  .slidess h2{
+    position: absolute;
+    top: 0;
+  }
+
+  .reviewss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 22rem;
+    margin-top: -2rem;
+  }
+
+  .reviewss .sly img{
+    width: 15rem;
+  }
+  .reviewss .sly{
+    width: 90%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+  }
+  .reviewss .sly button{
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    Border: 0px, 0px, 3px, 0px;
+    Padding: 8px, 35px, 8px, 35px;
+    Gap: 10px;
+    color: aliceblue;
+  }
+
+   /* form */
+
+   .form{
+    background-image: url("/images/bg.jpg");
+    background-size: cover; /* Adjust the size of the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 45rem;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigreen{
+    width: 3rem;
+    position: absolute;
+    top: 18rem;
+    left: 5px;
+    z-index: 2;
+  }
+  .overlayy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5; /* Adjust the opacity as per your preference */
+    z-index: 1; /* Make sure the overlay is above the background image */
+  }
+  .inner-form{
+    background-color: aliceblue;
+    z-index: 1;
+    width: 60%;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 25px;
+  }
+  .form-img{
+    border-radius: 25px;
+    height: 20rem;
+  }
+  .form-img img{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+  .form-form{
+    background-color: aliceblue;
+    z-index: 1;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-form form h1{
+    font-size: 19px;
+  }
+  .form-form form p{
+    font-size: 16px;
+  }
+  .form-form form input{
+    width: 60%;
+    height: 2rem;
+    border-radius: 6px;
+  }
+  .form-form form button{
+    width: 160px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: #5B9739;
+    Border: 0px, 0px, 3px, 0px;
+    Padding: 8px, 35px, 8px, 35px;
+    Gap: 10px;
+    color: aliceblue;
+  }
+
+   /* footer */
+
+   .footer{
+    background-color: #333333;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .roundglobe{
+    width: 8rem;
+    position: absolute;
+    top: -3.4rem;
+    right: 1rem;
+    z-index: 1;
+  }
+  .footer .inner-div1{
+    flex: 2;
+  }
+  .inner-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8rem;
+    height: 30rem;
+    gap: -2rem;
+  }
+  .inner-div1 div h6{
+    color: aliceblue;
+  }
+  /* .inner-div1 div {
+    border: 1px solid red;
+    height: 10rem;
+  } */
+  .inner-div1 .firsttt img{
+    width: 10rem;
+  }
+  .div--items{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+  }
+  .second{
+    display: flex;
+    gap: 1rem;
+  }
+  .inner-div2{
+    display: flex;
+    flex-direction: column;
+    gap: -2rem;
+  }
+  .inner-div2 div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .inner-div2 div img{
+    width: 1.5rem;
+    height: 1rem;
+  }
+  .inner-div2 div h5{
+    color: aliceblue;
+  }
+  .footer .inner-div2{
+    flex: 1;
+  }
+
+
+  
+  
+  }
+  
+  /* Desktop Styles */
+  @media (min-width: 1024px) {
+    /* CSS rules for desktop devices */
+
+    .nav-mobile {
+        display: none;
+      }
+      
+    .main-body{
+        margin: 0;
+        padding: 0;
+        position: relative;
+    }
+    .nav-desktop{
+      position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 93%;
+        height: 3rem;
+        margin-top: -5rem;
+    }
+    .hamburger-menu .bar{
+        width: 18px;
+        height: 1px;
+        border: 1px solid black;
+        background-color: black;
+        margin: 5px;
+        display: none;
+    }
+    div .nav-items{
+        display: flex;
+        gap: 40px;
+        list-style: none;
+    }
+    div .nav-items li:hover{
+        color: burlywood;
+    }
+    .img-two{
+        display: flex;
+        gap: 10px;
+    }
+    .img-logo{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 110px;
+        height: 40px;
+    }
+    .img-logo img{
+        width: 105px;
+    }
+
+
+    /* hero section */
+    .hero-section{
+      /* position: absolute; */
+      width: 100%;
+        display: flex;
+        margin-top: 5.8rem;
+    }
+    .greenbutter{
+      width: 4rem;
+      height: 4rem;
+      position: absolute;
+      top: 6rem;
+      left: 28rem;
+    }
+    .litegreenbutter{
+      width: 2rem;
+      height: 2rem;
+      position: absolute;
+      top: 28rem;
+      left: 21rem;
+    }
+    .bulbleaf{
+      width: 8rem;
+      height: 8rem;
+      position: absolute;
+      top: 38rem;
+      left: 4rem;
+    }
+
+    .inHeroSection{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    .image-side{
+      height: 682px;
+      margin-right: 3rem;
+    }
+    .text-side{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 8rem;
+      margin-left: 9rem;
+      gap: -25px;
+    }
+    .text-inner h2{
+      font-weight: 800;
+      font-size: 35px;
+    }
+    .text-inner h5{
+      font-weight: 200;
+      font-size: 20px;
+    }
+    .text-inner h1{
+      font-weight: 900;
+      font-size: 40px;
+      width: 30px;
+      color: #5B9739;
+    }
+    .text-inner p{
+      font-weight: 100;
+      font-size: 15px;
+      width: 300px;
+    }
+    .btn-btn button{
+      width: 160px;
+      height: 42px;
+      border-radius: 5px;
+      background-color: #5B9739;
+      Border: 0px, 0px, 3px, 0px;
+      Padding: 8px, 35px, 8px, 35px;
+      Gap: 10px;
+      color: aliceblue;
+    }
+
+    /* flexes beginning */
+
+    .flexx-section{
+      margin: 4px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .flexes{
+      display: flex;
+    }
+    .flexes h5{
+      font-weight: 900;
+      font-size: 20px;
+    }
+    .flexxRight{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 10px;
+    }
+    .flexxRight .flexr{
+      width: 43%;
+      height: 19rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .flexxRight .flexl{
+      width: 43%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: -10px;
+    }
+    .flexxLeft{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      gap: 10px;
+    }
+    .flexxLeft .flexrr{
+      width: 43%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .flexxLeft .flexll{
+      width: 43%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: -10px;
+    }
+
+    /* beginning of background */
+
+    .background{
+      background-image: url("/images/bg.jpg");
+      background-size: cover; /* Adjust the size of the image to cover the entire background */
+      background-repeat: no-repeat; /* Prevent the image from repeating */
+      height: 56rem;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      opacity: 0.5; /* Adjust the opacity as per your preference */
+      z-index: 1; /* Make sure the overlay is above the background image */
+    }
+    .background .innerbackground{
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+      gap: 20px;
+      z-index: 2;
+    }
+    .background .innerbackground h6{
+      font-size: 20px;
+    }
+    .background .innerbackground button{
+      height: 42px;
+      width: 166px;
+      border-radius: 5px;
+      background-color: #5B9739;
+      color: aliceblue;
+    }
+
+    /* .slideshow {
+      position: relative;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .slide {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 1s ease-in-out;
+    }
+
+    .slide.active {
+      opacity: 1;
+    } */
+
+    .slides{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .reviews{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .reviews div{
+      width: 27%;
+      height: 20rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid green;
+      padding: 10px;
+      border-radius: 10px;
+    }
+
+    .slidess{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #55B76B;
+      height: 40rem;
+      margin-top: 2rem;
+    }
+
+    .reviewss{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 22rem;
+    }
+
+    .reviewss .sly img{
+      width: 15rem;
+    }
+    .reviewss .sly{
+      width: 23rem;
+      height: 20rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid white;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: aliceblue;
+    }
+    .reviewss .sly button{
+      width: 160px;
+      height: 42px;
+      border-radius: 5px;
+      background-color: #5B9739;
+      Border: 0px, 0px, 3px, 0px;
+      Padding: 8px, 35px, 8px, 35px;
+      Gap: 10px;
+      color: aliceblue;
+    }
+
+    /* form */
+
+    .form{
+      background-image: url("/images/bg.jpg");
+      background-size: cover; /* Adjust the size of the image to cover the entire background */
+      background-repeat: no-repeat; /* Prevent the image from repeating */
+      height: 45rem;
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .navigreen{
+      width: 7rem;
+      position: absolute;
+      top: -70rem;
+      left: 9px;
+      z-index: 2;
+    }
+    .overlayy {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: black;
+      opacity: 0.5; /* Adjust the opacity as per your preference */
+      z-index: 1; /* Make sure the overlay is above the background image */
+    }
+    .inner-form{
+      background-color: aliceblue;
+      z-index: 1;
+      width: 80%;
+      height: 33rem;
+      display: flex;
+      border-radius: 25px;
+    }
+    .form-img{
+      height: 100%;
+      border-radius: 25px;
+    }
+    .form-img img{
+      height: 100%;
+      z-index: 1;
+    }
+    .form-form{
+      background-color: aliceblue;
+      z-index: 1;
+      width: 100%;
+      border-radius: 25px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .form-form form{
+      height: 25rem;
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .form-form form h1{
+      font-size: 19px;
+    }
+    .form-form form p{
+      font-size: 16px;
+    }
+    .form-form form input{
+      width: 60%;
+      height: 2rem;
+      border-radius: 6px;
+    }
+    .form-form form button{
+      width: 160px;
+      height: 42px;
+      border-radius: 5px;
+      background-color: #5B9739;
+      Border: 0px, 0px, 3px, 0px;
+      Padding: 8px, 35px, 8px, 35px;
+      Gap: 10px;
+      color: aliceblue;
+    }
+
+    /* footer */
+
+    .footer{
+      background-color: #333333;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+    .roundglobe{
+      width: 16rem;
+      position: absolute;
+      top: -10.4rem;
+      right: 2rem;
+      z-index: 1;
+    }
+    .footer .inner-div1{
+      flex: 3;
+    }
+    .inner-div1{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 8rem;
+      height: 30rem;
+      gap: -2rem;
+    }
+    .inner-div1 div h6{
+      color: aliceblue;
+    }
+    /* .inner-div1 div {
+      border: 1px solid red;
+      height: 10rem;
+    } */
+    .inner-div1 .firsttt img{
+      width: 10rem;
+    }
+    .div--items{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 2rem;
+    }
+    .second{
+      display: flex;
+      gap: 1rem;
+    }
+    .inner-div2{
+      display: flex;
+      flex-direction: column;
+      gap: -2rem;
+    }
+    .inner-div2 div{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .inner-div2 div img{
+      width: 1.5rem;
+      height: 1rem;
+    }
+    .inner-div2 div h5{
+      color: aliceblue;
+    }
+    .footer .inner-div2{
+      flex: 1;
+    }
+  }
+
