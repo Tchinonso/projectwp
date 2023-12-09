@@ -1,72 +1,82 @@
 /* Mobile Styles */
 @media (max-width: 767px) {
     /* CSS rules for mobile devices */
-    .nav-mobile {
-        display: none;
-      }
-      .navv-mobile{
-        /* display: flex;
-        flex-direction: column; */
-        /* position: absolute; */
-        position: fixed;
-        background-color: #5B9739;
-        left: 0;
-        top: -14px;
-        height: 1550px;
-        width: 55%;
-        max-width: 600px;
-        transition: .7s ease transform;
-        gap: -225px;
-        list-style: none;
-        z-index: 3;
-      }
 
-      .hamburger-menu-close{
-        cursor: pointer;
-        /* position: absolute; */
-        position: fixed;
-        margin-top: -18px;
-        z-index: 4;
-    }
-    
-    .hamburger-menu-close .bar{
-        width: 18px;
-        height: 1px;
-        border: 1px solid black;
-        background-color: black;
-        margin: 5px;
-        cursor: pointer;
-    }
+    /* Style for the desktop navigation */
+.nav-desktop {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 3rem;
+}
 
-      .navv-mobile li{
-        margin-top: 5.4rem;
-      }
-      
+.hamburger-menu {
+  cursor: pointer;
+}
 
-    .main-body{
-        margin: 35px;
-        padding: 5px;
-    }
-    .nav-desktop{
-      position: fixed;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 80%;
-        height: 3rem;
-    }
-    .hamburger-menu{
-        cursor: pointer;
-    }
-    
-    .hamburger-menu .bar{
-        width: 18px;
-        height: 1px;
-        border: 1px solid black;
-        background-color: black;
-        margin: 5px;
-        cursor: pointer;
-    }
+.hamburger-menu .bar {
+  width: 18px;
+  height: 1px;
+  border: 1px solid black;
+  background-color: black;
+  margin: 5px;
+  cursor: pointer;
+}
+
+/* Style for the mobile navigation */
+.nav-mobile {
+  position: fixed;
+  display: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 55%;
+  max-width: 600px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #5B9739;
+  transition: .7s ease transform;
+  z-index: 3;
+}
+
+.nav-mobile.active {
+  display: flex;
+}
+
+.hamburger-menu-close {
+  cursor: pointer;
+  margin-top: 18px;
+  z-index: 4;
+}
+
+.hamburger-menu-close .bar {
+  width: 18px;
+  height: 1px;
+  border: 1px solid black;
+  background-color: black;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.navv-mobile {
+  list-style: none;
+  padding: 0;
+}
+
+.navv-mobile li {
+  margin-top: 1rem;
+  color: white; /* Change color as needed */
+}
+
+/* Your additional styles for the main content */
+.main-body {
+  margin: 35px;
+  padding: 5px;
+}
+  
+  
     div .nav-items{
         gap: 40px;
         list-style: none;
